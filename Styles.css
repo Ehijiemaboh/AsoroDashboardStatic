@@ -1,0 +1,325 @@
+
+#AdminM1 {
+    padding-right: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+#Admin {
+    padding: 10px;
+    margin: 0px;
+    width: 50%;
+  }
+  #AB2C3I1B,#AB2C3I1E{
+    border-width: 100%;
+    padding: 1PX;
+    margin: 0PX;
+    width: 100%;
+  }
+#AB2C3M1A
+{
+  padding: 1PX;
+  margin: 0PX;
+}
+ #AB2C3M1B, #AB2C3M1C, #AB2C3M1D, #AB2C3M1E {
+    border-top: solid .5px black;
+    border-width: 100%;
+    padding: 1PX;
+    margin: 0PX;
+  }
+ #AB2C3M1E {
+    border-bottom: solid .5px black;
+  }
+  #AB2C3M3A, #AB2C3M3B, #AB2C3M3C, #AB2C3M3D,  #AB2C3M3D {
+    border-top:0.5px solid black;
+  }
+ #AB2C3M3D {
+    border-bottom: solid .5px black;
+  }
+  #AB2C3M3TOP {
+    height: 20;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+  }
+#button {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+  
+  /* Style the links inside the navigation bar */
+
+  input#search {
+    align-content: left;
+    text-indent: 20px;
+    width: 90%;
+    text-align: center;
+    margin: 10px 0px 0px 35%;
+    padding: 10px;
+    height: 40px;
+    font-size: 17px;
+    
+  }
+ 
+ #form {
+    color: #555;
+    display: flex;
+    padding: 0px 2px;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+    width:35%;
+    align-content: left;
+    text-indent: 20px;
+    text-align: center;
+    margin: 1px 0px 2px 14%;
+    height: 34px;
+    font-size: 17px;
+  }
+   #searchb{
+    border: none;
+    background: transparent;
+    margin: 4px 2px;
+    padding: 2px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+  }
+  h10 {
+    font-weight: 100px;
+  }
+  input[type="search"]::placeholder {
+    color: #bbb;
+  }
+
+#rowM1 { height: 30%;
+  border-bottom: .5px solid black;
+  padding: 15px;
+  margin-left: 1px;
+  border-width: .1px;
+}
+/*#rowM2{
+}*/
+  #button:focus,
+  #searchb :focus {
+    box-shadow: 0 0 3px 0 #1183d6;
+    border-color: #1183d6;
+    outline: none;
+  }
+  
+  #button:hover {
+    opacity: 1;
+  }
+  ::placeholder {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  span {
+    padding-right: 2px;
+
+  }
+  #AC_button, #AC_button2 {
+    background-color: rgb(156, 179, 171);
+    border-radius: 15px;
+    width:30px;
+    height:20px;
+    align-content: center;
+    text-indent:19%;
+    padding:1px 3px 1px 3px;
+    margin:2px 0px 3px 10px;
+    font-size: 15px;}
+
+#img1 {
+    width:50px;
+    height:30px;
+    padding:3px 3px 3px 0px;
+    margin:2px 2px 2.4% 75%;
+}
+#img {
+    width:50px;
+    height:30px;
+    padding:10px 3px 3px 0px;
+    margin:4px 2px 2.4% 10px;
+}
+#imgx {
+    width:80%;
+    height:80%;
+    padding:10px 3px 3px 0px;
+    margin:4px 2px 2.4% 10px;
+}
+#Main_Dashboard{
+    color: maroon;
+    background-color: white;
+    font-size:50px;
+}
+#TOP {padding: 1px 0px 1px 30px;
+    border-bottom: .5px solid black;
+    position: relative;
+    right: end;
+    height: 9.4%;
+}
+#hr1 {
+    width: 40%;
+}
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+#AB2C2 {
+    margin-top: 20%;
+}
+
+#AB2C2 {
+    padding-right: 0px;
+    margin-right: 0px;
+}
+button {background-color:rgb(223, 226, 230);
+    padding: 3px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 10px;
+}
+#bottom {
+     padding-bottom: 0px;
+}
+#METRICS {
+    margin: 10PX;
+}
+#firstbutton {
+    background-color: rgb(16, 16, 99);
+    color: aliceblue;
+
+}
+#row { padding: 10px;
+     margin: 10px;
+
+}
+#container {
+     padding-bottom: 0px ;
+     padding-right: 0px;
+}
+#ABx{
+    width:10px;
+    height:700px;
+    color:black;
+    background-color: black;
+}
+#AB1C1 {
+    background-color: black;
+    color: brown;
+    padding:0;
+    margin: 0;
+
+}
+/*#AB1C2D1, #AB1C2D2,#AB1C2D3,#AB1C2D4,#AB1C2D5,#AB1C2D6, #AB1C2D {
+    }*/
+
+#AB1C2D {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }  
+    #AB1C2D li {
+    position: relative;
+    padding-left: 28px;
+    margin: 6px 0;
+    line-height: 1.5;
+    }
+    
+    #AB1C2D li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    background-image: url("img/piz.png");/*is image path to as your wish */
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+    #AB1C2D li::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top:95%;
+        transform: translateY(-50%);
+      
+        }
+/*
+ul li{
+    margin:0;
+    padding: 36px 0 3px 84px;
+    list-style: none;
+    background-image: url("img/piz.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px;
+
+    }
+ li{
+        list-style-image: url("img/piz.png");
+    }*/
+    
+::marker {
+    width: 20PX;
+    height: 20PX;
+}    
+
+#AB1C2D7 {
+        padding-top: 140px;
+        padding-left: 40px;
+        margin: 0;
+    }
+
+
+.AB1C2D7 {
+    background-color: blueviolet;
+    width: 20%;
+    height: 30%;
+    color: brown;
+}
+#AB1{
+    border-right:  1px solid black;
+    padding-right:  0px;
+}
+#AB2C1 {
+    height: 20%;
+    color: brown;
+    padding: 10px;
+}
+
+#AB2C2 {
+    padding: 10px;
+    margin: 2px;}
+
+#TAB2C2 {
+    margin: 0px;
+    align-content: end;}
+
+#AB2C4 {
+    padding: 10px;
+    margin: 10px;
+}
+#AB2C3M {
+    padding-right: 0px;
+    margin-right: 0px; 
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}

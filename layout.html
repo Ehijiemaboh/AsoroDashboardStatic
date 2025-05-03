@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Asoro Auto </title>
+        <!--<link rel=”stylesheet” href=”{{STATIC_URL}}/Dashboard/css/bootstrap-grid.css.map”>-->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link
+        rel="stylesheet"    
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="css/bootstrap.min.css" rel="Stylesheet" >
+        <link rel="stylesheet" href="Stylesb.css" />
+        <link href="Styles.css" rel="Stylesheet" >
+  
+    
+    </head>
+    <body>
+        <h1  id="Main_Dashboard"> MAIN DASHBOARD</h1>
+        <hr id="hr1">
+        <div id="container"  class="container-fluid" >
+            <div class="row">
+                <div id="AB1" class="col-sm-2">
+                    <div class="row" id="AB1C1">
+                        <img id="imgx" src="{% static 'Dashboard/img/ASORO_NEW_LOGO trimmed.jpg' %}" alt="ASORO"/>
+                    </div>
+                    <div id="AB1C2" class="row">
+                        <ul id="AB1C2D">
+                            <li  id="AB1C2D1"><a href="{% url 'index' %}"> Dashboard</a>
+                            </li>
+                            <li id="AB1C2D2"><a href="{% url 'mechanics' %}"> Mechanics</a>
+                            </li>  
+                            <li  id="AB1C2D3"><a href="{% url 'individuals' %}"> Individuals</a>
+                            </li>
+                            <li id="AB1C2D4"><a href="{% url 'settings' %}"> Settings</a>
+                            </li>
+                            <li id="AB1C2D5"><a href="{% url 'messages' %}"> Messages</a>
+                            </li>  
+                            <li  id="AB1C2D6"><a href="{% url 'support' %}"> Support</a>
+                            </li>
+                            <li id="AB1C2D7"><a href="{% url 'index' %}"> Logout</a>
+                            </li>
+                        </ul> 
+                    </div>
+                </div>
+                <!-- <div class="col-1" id="ABx" ></div>-->
+                <div class="col-sm-10" id="AB2" >
+                    
+                </div>
+            </div>
+        </div>
+        <!--<script src=" {% static 'Dashboard/js/bootstrap.min.js'% }"></script>-->
+    </body>
+</html>

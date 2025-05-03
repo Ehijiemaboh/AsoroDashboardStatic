@@ -1,0 +1,20 @@
+{% extends "Dashboard/layout.html" %}
+{% load static %}
+{% block body %}
+
+<div class="row" id="TOP"> 
+    <form id="form" class="col-sm-7">
+    <button  id="button"    type="submit">Search</button>
+    <input  id="searchb"   type="search" placeholder="Search...">
+    </form>
+    <img class="col-1" id="img" src="{% static 'Dashboard/img/bell.png' %}                                                                 " alt="Bell">
+    <div  class="col-1"> <h6 id="AC_button">AC</h6> 
+    </div>
+   <div class="col-sm-2">
+    <h10 class="col" id="Admin"> <span style="font-weight: 100px;">Adekunle Cirona</span></br>
+     Admin </h10>
+   </div>
+</div>
+
+
+{% endblock %}
